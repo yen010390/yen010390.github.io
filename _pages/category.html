@@ -36,7 +36,7 @@ author_profile: true
 </style>
 
 <div class="post-grid">
-  {% for post in site.categories.category-name %}
+  {% for post in site.category %}
     <div class="post-card">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
