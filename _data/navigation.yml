@@ -22,6 +22,9 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "Certification"
+    url: /certification/
     
   - title: "CV"
     url: /cv/
