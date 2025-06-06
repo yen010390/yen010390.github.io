@@ -19,12 +19,15 @@ main:
 
   - title: "Category"
     url: /category/
+
+  - title: "Project"
+    url: /project/
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
 
   - title: "Certification"
     url: /certification/
