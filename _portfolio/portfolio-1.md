@@ -1,6 +1,6 @@
 ---
 title: "Category 1: Process Digitalization & SAP Integration"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: portfolio
 ---
 
