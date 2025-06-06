@@ -4,7 +4,7 @@ excerpt: "Projects demonstrating the ability to not only apply Lean principles b
 collection: portfolio
 ---
 
-#Project: Lean & Digitalization Training Program
+# Project: Lean & Digitalization Training Program
 I designed and delivered a training program for Area Leaders and operators at Colgate Palmolive to build their understanding of Lean and Digitalization concepts. 
 
 ## My Role & Key Actions:
