@@ -229,6 +229,9 @@ collections:
   certification:
     output: true
     permalink: /:collection/:path/
+  category:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -273,6 +276,15 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+    # _category
+  - scope:
+      path: ""
+      type: category
     values:
       layout: single
       author_profile: true
