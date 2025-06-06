@@ -26,8 +26,8 @@ main:
   - title: "Certification"
     url: /certification/
     
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
