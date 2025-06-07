@@ -6,11 +6,11 @@ category: "Category 3: Lean Manufacturing & Continuous Improvement"
 tag: ["Statistical Process Control", "SPC", "Process Validation", "IQ/PQ/OQ Principles", "SOP", "Lean Manufacturing", "Data Analysis"]
 ---
 
-## Project Description: 
+## 📄 Project Description: 
 - Conducted an optimization project focused on reducing the cycle time for 50 critical VIM (Vertical Injection Molding) machines.
 - Applied statistical analysis (Gauge R&R, histograms, SPC)
 
-## Key Achievements: 
+## 🏆 Key Achievements: 
 - Achieved a 9% cycle time improvement (from 16.5s to 15s).
 - Developed and implemented new Standard Operating Procedures (SOPs) to control parameters and sustain the gains.
 <p style="display: flex; gap: 10px; align-items: center;">
@@ -20,5 +20,5 @@ tag: ["Statistical Process Control", "SPC", "Process Validation", "IQ/PQ/OQ Prin
 
 
 
-## Relevant Skills Demonstrated: 
+## 🛠️ Relevant Skills Demonstrated: 
 `Statistical Process Control`, `SPC`, `Process Validation`, `IQ/PQ/OQ Principles`, `SOP`, `Lean Manufacturing`, `Data Analysis`.
