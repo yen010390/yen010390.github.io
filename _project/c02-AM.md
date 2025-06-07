@@ -19,8 +19,8 @@ tag: ["Digitalization Strategy", "System Implementation", "Autonomous & Predicti
 </ul>
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
-  <img src="/images/yellow-tag.jpg" alt="Yellow Tag" style="width:30%;">
-  <img src="/images/Spare-part-order.png" alt="Spare part order and Inventory tracking" style="width:60%;">
+  <img src="/images/yellow-tag.jpg" alt="Yellow Tag" style="width:50%;">
+  <img src="/images/Spare-part-order.png" alt="Spare part order and Inventory tracking" style="width:80%;">
 </div>
 
 <h2>🛠️ Relevant Skills Demonstrated:</h2>
