@@ -1,14 +1,14 @@
 ---
-title: "Real-Time FIFO Control & Dashboard"
+title: "Real-Time FIFO Dashboard Control & SAP Integration"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
-category: "Category 1: Process Digitalization & SAP Integration"
+category: "Category 2: Digitalization & SAP-Integrated Process Control"
 ---
 
-# Real-Time FIFO Control & Dashboard
+# Real-Time FIFO Dashboard Control & SAP Integration
 
 ## 📄 Project Description
-As project leader, I coordinated with the SAP team to create new functions for real-time FIFO tracking on the production floor, replacing paperwork. I optimized the material flow using the DMAIC method and ABC analysis.
+Led a project to digitize the FIFO (First-In, First-Out) process on the production floor. The goal was to eliminate manual paperwork and provide real-time visibility into material consumption.
 
 
 ## 🏆 Key Achievements  
@@ -22,6 +22,6 @@ As project leader, I coordinated with the SAP team to create new functions for r
 
 
 ## 🛠️ Relevant Skills Demonstrated 
-Project Management, SAP Integration, Process Automation, DMAIC, Cross-functional Collaboration
+SAP Integration (MM/WMS Principles), Process Digitalization, Project Management, DMAIC, Real-Time Dashboards, User Training.
 
 
