@@ -3,6 +3,7 @@ title: "Global Quality Audit & ISO 9001 Enhancement"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
 category: "Category 1: Global Quality Systems & Process Harmonization"
+tag: ["Global Quality Systems", "ISO 9001", "Process Harmonization", "GMP", "Kaizen Leadership", "CAPA", "Cross-functional Collaboration", "Stakeholder Management"]
 ---
 
 # Global Quality Audit & ISO 9001 Enhancement
@@ -17,4 +18,4 @@ category: "Category 1: Global Quality Systems & Process Harmonization"
 - Drastically improved the site's quality standing by elevating the audit result from a significant finding (A) to a minor finding (C). 
 
 ## Relevant Skills Demonstrated: 
-Global Quality Systems (ISO 9001), Process Harmonization, GMP, Kaizen Leadership, CAPA, Cross-functional Collaboration, Stakeholder Management.
+`Global Quality Systems`, `ISO 9001`, `Process Harmonization`, `GMP`, `Kaizen Leadership`, `CAPA`, `Cross-functional Collaboration`, `Stakeholder Management`.
