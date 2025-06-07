@@ -35,25 +35,36 @@ permalink: /projects/
   }
 </style>
 
-{% for category in group_names %}
-  {% assign projects = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+{% assign ordered_categories = 
+  "Category 1: Global Quality Systems & Process Harmonization,
+   Category 2: Digitalization & SAP-Integrated Process Control,
+   Category 3: Lean Manufacturing & Continuous Improvement,
+   Category 4: Advanced Process Analysis & Simulation,
+   Category 5: Others" | split: "," %}
 
-  {% for project in projects %}
-    <div class="project-item">
-      <div class="project-title">
-        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-      </div>
-      <div class="project-excerpt">
-        {{ project.excerpt | strip_html | truncatewords: 40 }}
-      </div>
-      {% if project.tags %}
-        <div class="project-tags">
-          {% for tag in project.tags %}
-            <span>#{{ tag }}</span>
-          {% endfor %}
+{% for ordered_cat in ordered_categories %}
+  {% assign category = ordered_cat | strip %}
+  {% assign index = group_names | index_of: category %}
+  {% if index != -1 %}
+    {% assign projects = group_items[index] %}
+    <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+    
+    {% for project in projects %}
+      <div class="project-item">
+        <div class="project-title">
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
         </div>
-      {% endif %}
-    </div>
-  {% endfor %}
+        <div class="project-excerpt">
+          {{ project.excerpt | strip_html | truncatewords: 40 }}
+        </div>
+        {% if project.tags %}
+          <div class="project-tags">
+            {% for tag in project.tags %}
+              <span>#{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endif %}
 {% endfor %}
