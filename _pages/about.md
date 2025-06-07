@@ -7,64 +7,62 @@ redirect_from:
   - /about.html
 ---
 
-🌟 Welcome to My Portfolio
+# 🌟 Welcome to My Portfolio
+
 👋 Hi, I'm Dang Thi Hoang Yen
 An Industrial Engineer passionate about data-driven optimization, sustainable operations, and machine learning applications in production systems.
 
-💼 About Me
+## 💼 About Me
 I am an industrial engineering professional with hands-on experience in manufacturing excellence and supply chain optimization. My academic and professional journey has been shaped by my commitment to solving real-world problems with technical innovation and human-centered design.
 
-My experience spans:
+## My experience spans:
 
-Lean manufacturing and operations improvement at Colgate-Palmolive
+- Lean manufacturing and operations improvement at Colgate-Palmolive
 
-Circular economy research funded by DAAD in collaboration with TU Berlin
+- Circular economy research funded by DAAD in collaboration with TU Berlin
 
-Data science & optimization coursework and certifications via Coursera, edX, and top universities
+- Data science & optimization coursework and certifications via Coursera, edX, and top universities
 
-I am currently expanding my expertise in data analytics and operations research, with the goal of contributing to sustainable, efficient, and intelligent production systems.
+- I am currently expanding my expertise in data analytics and operations research, with the goal of contributing to sustainable, efficient, and intelligent production systems.
 
-🎓 Education
-M.Sc. in Global Production Engineering, TU Berlin / Vietnam-Germany University (DAAD Scholarship)
+## 🎓 Education
+- M.Sc. in Global Production Engineering, TU Berlin / Vietnam-Germany University (DAAD Scholarship)
 
-B.Sc. in Industrial Management, Ho Chi Minh City University of Technology
+- B.Sc. in Industrial Management, Ho Chi Minh City University of Technology
 
-Additional coursework in Machine Learning, Probability, and Optimization (Coursera, NTU, HCMUS)
+- Additional coursework in AI and Operation Research (Coursera, NTU, HCMUS)
 
-🔍 What I’m Looking For
-I’m currently seeking Ph.D. opportunities, data engineering / analytics roles, or research-based positions where I can apply my background in operations research and manufacturing to complex system problems, especially in sustainable or industrial domains.
+## 🔍 What I’m Looking For
+I’m currently seeking Ph.D. opportunities, data engineering/analytics roles, or research-based positions where I can apply my background in operations research and manufacturing to complex system problems, especially in sustainable or industrial domains.
 
-🛠️ Skills & Tools
-Programming: Python, SQL, MATLAB
+## 🛠️ Skills & Tools
+- Programming: Python, SQL, MATLAB
 
-Libraries: NumPy, Pandas, SciPy, Scikit-learn, PuLP
+- Libraries: NumPy, Pandas, SciPy, Scikit-learn, PuLP
 
-Analytics: Data Visualization, Forecasting, Optimization Modeling
+- Analytics: Data Visualization, Forecasting, Optimization Modeling
 
-Tools: Power BI, Jupyter, Git, Excel VBA
+- Tools: Power BI, Jupyter, Git, Excel VBA
 
-Languages: English (fluent), German (intermediate), Vietnamese (native)
+- Languages: English (fluent), German (A2 level), Vietnamese (native)
 
-📌 Projects & Research
-Circular Economy Framework – Engineered wood value chain analysis (TU Berlin / DAAD)
+## 📌 Projects & Research
+- Circular Economy Framework – Engineered wood value chain analysis (TU Berlin / DAAD)
 
-Shop Floor Optimization – Workstation redesign, layout and flow improvement (Colgate-Palmolive)
+- Shop Floor Optimization – Workstation redesign, layout and flow improvement (Colgate-Palmolive)
 
-Digital Inventory Management – Inbound process redesign with efficiency gains
+- Digital Inventory Management – Inbound process redesign with efficiency gains
 
-Master’s Thesis – Modeling economic and material flow feasibility of recycling systems
+- Master’s Thesis – Modeling economic and material flow feasibility of recycling systems
 
-See my projects on GitHub or contact me for full portfolio.
+- See my projects on GitHub.
 
-📫 Get in Touch
-📧 Email: [yendang.dthy@gmail.com]
+## 📫 Get in Touch
+- 📧 Email: [yendang.dthy@gmail.com]
 
-💼 LinkedIn: linkedin.com/in/yen-dang-0103/
+- 💼 LinkedIn: linkedin.com/in/yen-dang-0103/
 
-🌐 GitHub: github.com/yen010390
+- 🌐 GitHub: github.com/yen010390
 
 🤝 Let’s Collaborate
 Suppose you’re looking for someone who can bridge technical modeling and business needs, or want to collaborate on a project in operations, analytics, or sustainable manufacturing. In that case, I’d love to hear from you.
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
