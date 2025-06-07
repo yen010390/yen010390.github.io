@@ -2,8 +2,8 @@
 title: "Digitalization of Documentation & Training with AskDelphi"
 excerpt: "Translating complex SOPs into accessible, multilingual video tutorials, driving user adoption, and demonstrating value through reduced training costs and accelerated onboarding."
 collection: project
-category: "Category 1: Process Digitalization & SAP Integration"
-tag: ["Digital Transformation", "Global Platform Deployment", "Change Management", "Knowledge Management", "SOP Standardization", "User Training"]
+category: "Category 1: Global Quality Systems & Process Harmonization"
+tags: ["Digital Transformation", "Global Platform Deployment", "Change Management", "Knowledge Management", "SOP Standardization", "User Training"]
 ---
 
 ## 📄 Project Description: 
