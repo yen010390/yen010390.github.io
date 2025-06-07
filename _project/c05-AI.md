@@ -5,7 +5,7 @@ collection: project
 category: "Category 5: Others"
 ---
 
-## 👉 Truy cập tại: 
+## 👉 Click to my AI learning path: 
   <a href="https://yen010390.github.io/AIO.github.io/" target="_blank" rel="noopener">
     AIO Project
   </a>
