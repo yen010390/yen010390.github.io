@@ -13,8 +13,18 @@ author_profile: true
   <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
   <ul>
     {% for project in projects %}
-      <li>
-        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      <li style="margin-bottom: 1.5em;">
+        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        {% if project.excerpt %}
+          <p>{{ project.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+        {% if project.tags %}
+          <p><strong>Tags:</strong>
+            {% for tag in project.tags %}
+              <span style="background: #eee; padding: 2px 6px; margin-right: 5px; border-radius: 4px;">{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
