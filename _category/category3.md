@@ -1,5 +1,5 @@
 ---
-title: "Category 3: Advanced Process Analysis & Simulation"
+title: "Category 3: Lean Manufacturing & Continuous Improvement"
 excerpt: "This category demonstrates a strong foundation in using data-driven, lean methodologies to analyze performance, optimize processes, and build a culture of operational excellence."
 collection: category
 category: "Category 3: Lean Manufacturing & Continuous Improvement"
