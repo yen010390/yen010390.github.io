@@ -3,7 +3,7 @@ title: "Lean & Digitalization Training Program"
 excerpt: "Identifying skill gaps, collaborating with stakeholders (Quality, EHS, HR) to build a strategic plan, and deploying engaging, effective training materials that are validated by improvements in key production KPIs."
 collection: project
 category: "Category 3: Lean Manufacturing & Continuous Improvement"
-tag: ["Training Program Management", "Needs Analysis", "Curriculum Development", "Change Management", "Lean Principles", "Performance Measurement", "KPIs", "Standardization"]
+tags: ["Training Program Management", "Needs Analysis", "Curriculum Development", "Change Management", "Lean Principles", "Performance Measurement", "KPIs", "Standardization"]
 ---
 
 ## 📄 Project Description: 
