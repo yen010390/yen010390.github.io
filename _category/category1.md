@@ -6,6 +6,8 @@ permalink: /category/global-quality-systems/
 category: "Category 1: Global Quality Systems & Process Harmonization"
 ---
 
-## 🌐 Live Website
+## 🌐 Table of Projects
 
-{% include category-projects.html category="Global Quality Systems & Process Harmonization" %}
+- [Digitalization of Documentation & Training with AskDelphi](/project/c01-AskDelphi.md)
+- [International Logistics & Container Utilization Optimization](/project/c01-Utilize-container.md)
+- [Global Quality Audit & ISO 9001 Enhancement](/project/c01-audit.md)
