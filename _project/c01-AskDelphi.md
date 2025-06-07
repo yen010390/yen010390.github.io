@@ -3,6 +3,7 @@ title: "Digitalization of Documentation & Training with AskDelphi"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
 category: "Category 1: Process Digitalization & SAP Integration"
+tag: ["Digital Transformation", "Global Platform Deployment", "Change Management", "Knowledge Management", "SOP Standardization", "User Training"]
 ---
 
 ## Project Description: 
@@ -18,4 +19,4 @@ category: "Category 1: Process Digitalization & SAP Integration"
 ![Training Image](/images/Askdelphi-1.jpg)
 
 ## Relevant Skills Demonstrated: 
-Digital Transformation, Global Platform Deployment, Change Management, Knowledge Management, SOP Standardization, User Training.
+`Digital Transformation`, `Global Platform Deployment`, `Change Management`, `Knowledge Management`, `SOP Standardization`, `User Training`.
