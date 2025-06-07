@@ -1,19 +1,20 @@
 ---
 permalink: /
-title: "Welcome to My Page"
+title: "🌟 Welcome to My Page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# 🌟 Welcome to My Portfolio
+## 👋 Hi there, I'm Dang Thi Hoang Yen
 
-👋 Hi, I'm Dang Thi Hoang Yen
 An Industrial Engineer passionate about data-driven optimization, sustainable operations, and machine learning applications in production systems.
 
 ## 💼 About Me
-I am an industrial engineering professional with hands-on experience in manufacturing excellence and supply chain optimization. My academic and professional journey has been shaped by my commitment to solving real-world problems with technical innovation and human-centered design.
+I am an industrial engineering professional with hands-on experience in manufacturing excellence and supply chain optimization. 
+
+My academic and professional journey has been shaped by my commitment to solving real-world problems with technical innovation and human-centered design.
 
 ## My experience spans:
 
@@ -30,7 +31,7 @@ I am an industrial engineering professional with hands-on experience in manufact
 
 - B.Sc. in Industrial Management, Ho Chi Minh City University of Technology
 
-- Additional coursework in AI and Operation Research (Coursera, NTU, HCMUS)
+- Additional coursework in AI and Operations Research (Coursera, NTU, HCMUS)
 
 ## 🔍 What I’m Looking For
 I’m currently seeking Ph.D. opportunities, data engineering/analytics roles, or research-based positions where I can apply my background in operations research and manufacturing to complex system problems, especially in sustainable or industrial domains.
@@ -49,7 +50,7 @@ I’m currently seeking Ph.D. opportunities, data engineering/analytics roles, o
 ## 📌 Projects & Research
 - Circular Economy Framework – Engineered wood value chain analysis (TU Berlin / DAAD)
 
-- Shop Floor Optimization – Workstation redesign, layout and flow improvement (Colgate-Palmolive)
+- Shop Floor Optimization – Workstation redesign, layout, and flow improvement (Colgate-Palmolive)
 
 - Digital Inventory Management – Inbound process redesign with efficiency gains
 
