@@ -14,7 +14,7 @@ Designed and implemented a digital solution to streamline the goods receipt proc
 - Decreased non-value-added (waste) time for suppliers' drivers by 50%.
 - This was enabled through a real-time dashboard that provides full visibility of delivery schedules and receiving status to all stakeholders.
 
-<img src="https://yen010390.github.io/images/GR.png" alt="GR improvement" style="max-width: 50%; border: 1px solid #999; border-radius: 4px;">
+<img src="https://yen010390.github.io/images/GR.png" alt="GR improvement" style="max-width: 100%; border: 1px solid #999; border-radius: 4px;">
 
 ## 🛠️ Relevant Skills Demonstrated: 
 `Process Optimization`, `Digitalization`, `Supplier Relationship Management`, `Dashboard`, `Tableau`, `Power BI`, `Real-Time Data Analysis`.
