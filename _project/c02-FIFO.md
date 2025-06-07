@@ -3,6 +3,7 @@ title: "Real-Time FIFO Dashboard Control & SAP Integration"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
 category: "Category 2: Digitalization & SAP-Integrated Process Control"
+tag: ["SAP MM/WMS", "Process Digitalization", "Project Management", "DMAIC", "Real-Time Dashboards", "User Training"]
 ---
 
 
@@ -22,6 +23,6 @@ Led a project to digitize the FIFO (First-In, First-Out) process on the producti
 
 
 ## 🛠️ Relevant Skills Demonstrated 
-SAP Integration (MM/WMS Principles), Process Digitalization, Project Management, DMAIC, Real-Time Dashboards, User Training.
+`SAP MM/WMS`, `Process Digitalization`, `Project Management`, `DMAIC`, `Real-Time Dashboards`, `User Training`.
 
 
