@@ -3,7 +3,7 @@ title: "MTM Work & Time Studies"
 excerpt: "Apply detailed Methods-Time Measurement (MTM) studies to identify and eliminate non-value-added activities, resulting in major, quantifiable improvements in production output."
 collection: project
 category: "Category 4: Advanced Process Analysis & Simulation"
-Tag: ["Time & Motion Study", "MTM", "Value Stream Mapping", "Process Optimization", "Bottleneck Analysis"]
+tags: ["Time & Motion Study", "MTM", "Value Stream Mapping", "Process Optimization", "Bottleneck Analysis"]
 ---
 
 ## 📄 Project Description: 
