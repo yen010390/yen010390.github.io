@@ -37,7 +37,7 @@ category: "Category 1: Global Quality Systems & Process Harmonization"
   }
 </style>
 
-{% assign all_projects = site.pages | where_exp:"p", "p.path contains 'project/'" %}
+{% assign all_projects = site.project.docs %}
 {% assign projects_in_category = all_projects | where:"category", page.category %}
 
 {% if projects_in_category.size > 0 %}
