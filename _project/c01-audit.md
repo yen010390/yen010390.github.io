@@ -3,7 +3,7 @@ title: "Global Quality Audit & ISO 9001 Enhancement"
 excerpt: "Lead strategic quality initiatives, using Lean tools like Gemba walks and Kaizen events to foster a culture of continuous improvement and achieve major, measurable enhancements in audit performance."
 collection: project
 category: "Category 1: Global Quality Systems & Process Harmonization"
-tag: ["Global Quality Systems", "ISO 9001", "Process Harmonization", "GMP", "Kaizen Leadership", "CAPA", "Cross-functional Collaboration", "Stakeholder Management"]
+tags: ["Global Quality Systems", "ISO 9001", "Process Harmonization", "GMP", "Kaizen Leadership", "CAPA", "Cross-functional Collaboration", "Stakeholder Management"]
 ---
 
 ## 📄 Project Description: 
