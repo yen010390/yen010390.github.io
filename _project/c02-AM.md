@@ -2,7 +2,7 @@
 title: "Digitalization of Maintenance Operations"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
-category: "Category 1: Process Digitalization & SAP Integration"
+category: "Category 2: Digitalization & SAP-Integrated Process Control"
 ---
 
 ## Project Description: 
