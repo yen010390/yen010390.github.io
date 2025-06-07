@@ -3,6 +3,7 @@ title: "International Logistics & Container Utilization Optimization"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
 category: "Category 1: Global Quality Systems & Process Harmonization"
+tag: ["Global Coordination", "Process Design", "Simulation", "Logistics & Supply Chain Optimization", "International Project Management"]
 ---
 
 ## Project Description: 
@@ -18,4 +19,4 @@ category: "Category 1: Global Quality Systems & Process Harmonization"
 
 
 ## Relevant Skills Demonstrated: 
-Global Coordination, Process Design, Simulation, Logistics & Supply Chain Optimization, International Project Management.
+`Global Coordination`, `Process Design`, `Simulation`, `Logistics & Supply Chain Optimization`, `International Project Management`.
