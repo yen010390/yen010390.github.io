@@ -15,7 +15,7 @@ tag: ["Digital Transformation", "Global Platform Deployment", "Change Management
 - Converted critical SOPs into accessible, multilingual video "speaches" which drastically reduced training costs (travel, logistics) and accelerated operator onboarding.
 - Increased overall productivity by ensuring all employees had on-demand access to the latest procedures, improving skills and operational excellence.
 
-[Colgate Customer Story on Speach.me](https://speach.me/customer-stories/colgate)
+## [👉 Click to visit Colgate Customer Story on Speach.me](https://speach.me/customer-stories/colgate)
 ![Training Image](/images/Askdelphi-1.jpg)
 
 ## Relevant Skills Demonstrated: 
