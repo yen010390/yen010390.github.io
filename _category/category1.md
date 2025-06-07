@@ -37,8 +37,8 @@ category: "Category 1: Global Quality Systems & Process Harmonization"
   }
 </style>
 
-{% assign all_projects = site.project.docs %}
-{% assign projects_in_category = all_projects | where:"category", page.category %}
+{% assign all_projects = site.project %}
+{% assign projects_in_category = all_projects | where: "category", page.category %}
 
 {% if projects_in_category.size > 0 %}
   {% for project in projects_in_category %}
