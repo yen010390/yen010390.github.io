@@ -7,4 +7,5 @@ permalink: /category/global-quality-systems/
 category: "Category 1: Global Quality Systems & Process Harmonization"
 ---
 
-{% include category-projects.html category=page.category %}
+
+{% include category-projects.html category="Global Quality Systems & Process Harmonization" %}
