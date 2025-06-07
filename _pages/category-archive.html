@@ -9,36 +9,36 @@ author_profile: true
 {% include group-by-array collection=site.project field="categories" %}
 
 <style>
-  .category-columns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .category-column {
-    flex: 1 1 300px;
+  .category-block {
     border: 1px solid #ddd;
     padding: 1.5rem;
     border-radius: 8px;
     background-color: #fafafa;
+    margin-bottom: 2rem;
   }
 
-  .category-column h2 {
+  .category-block h2 {
     margin-top: 0;
     border-bottom: 1px solid #ccc;
     padding-bottom: 0.5rem;
   }
 
-  .category-column li {
+  .category-block li {
     margin-bottom: 1.5em;
+  }
+
+  .tag-badge {
+    background: #eee;
+    padding: 2px 6px;
+    margin-right: 5px;
+    border-radius: 4px;
   }
 </style>
 
-<div class="category-columns">
+<div class="categories-list">
   {% for category in group_names %}
     {% assign projects = group_items[forloop.index0] %}
-    <div class="category-column">
+    <div class="category-block">
       <h2 id="{{ category | slugify }}">{{ category }}</h2>
       <ul>
         {% for project in projects %}
@@ -50,7 +50,7 @@ author_profile: true
             {% if project.tags %}
               <p><strong>Tags:</strong>
                 {% for tag in project.tags %}
-                  <span style="background: #eee; padding: 2px 6px; margin-right: 5px; border-radius: 4px;">{{ tag }}</span>
+                  <span class="tag-badge">{{ tag }}</span>
                 {% endfor %}
               </p>
             {% endif %}
