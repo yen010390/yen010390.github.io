@@ -18,8 +18,8 @@ Led a project to digitize the FIFO (First-In, First-Out) process on the producti
 
 
 ## 🖼️ Image
-<img src="https://yen010390.github.io/images/FIFO-1.jpg" alt="FIFO Flow" style="max-width: 30%; border: 1px solid #999; border-radius: 4px;">
-<img src="https://yen010390.github.io/images/FIFO-2.jpg" alt="FIFO Flow" style="max-width: 30%; border: 1px solid #999; border-radius: 4px;">
+<img src="https://yen010390.github.io/images/FIFO-1.jpg" alt="FIFO Flow" style="max-width: 60%; border: 1px solid #999; border-radius: 4px;">
+<img src="https://yen010390.github.io/images/FIFO-2.jpg" alt="FIFO Flow" style="max-width: 60%; border: 1px solid #999; border-radius: 4px;">
 
 
 ## 🛠️ Relevant Skills Demonstrated 
