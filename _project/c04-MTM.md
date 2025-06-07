@@ -1,6 +1,6 @@
 ---
 title: "MTM Work & Time Studies"
-excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
+excerpt: "Apply detailed Methods-Time Measurement (MTM) studies to identify and eliminate non-value-added activities, resulting in major, quantifiable improvements in production output."
 collection: project
 category: "Category 4: Advanced Process Analysis & Simulation"
 Tag: ["Time & Motion Study", "MTM", "Value Stream Mapping", "Process Optimization", "Bottleneck Analysis"]
