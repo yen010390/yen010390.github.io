@@ -3,7 +3,7 @@ title: "Real-Time FIFO Dashboard Control & SAP Integration"
 excerpt: "Lead projects to digitalize critical workflows like FIFO, coordinating directly with technical teams to develop and deploy functions within SAP that ensure data integrity, process compliance, and real-time visibility."
 collection: project
 category: "Category 2: Digitalization & SAP-Integrated Process Control"
-tag: ["SAP MM/WMS", "Process Digitalization", "Project Management", "DMAIC", "Real-Time Dashboards", "User Training"]
+tags: ["SAP MM/WMS", "Process Digitalization", "Project Management", "DMAIC", "Real-Time Dashboards", "User Training"]
 ---
 
 
