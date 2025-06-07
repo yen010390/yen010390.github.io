@@ -3,6 +3,7 @@ title: "Lean & Digitalization Training Program"
 excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
 collection: project
 category: "Category 3: Lean Manufacturing & Continuous Improvement"
+tag: ["Training Program Management", "Needs Analysis", "Curriculum Development", "Change Management", "Lean Principles", "Performance Measurement", "KPIs", "Standardization"]
 ---
 
 # 
@@ -19,6 +20,11 @@ Managed the end-to-end plant training program by analyzing training gaps from op
 
 - Successfully trained teams on the practical application of Lean principles through hands-on game simulations, proving the program's effectiveness by tracking significant improvements in Production KPIs (OEE, Standard Score).
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://yen010390.github.io/images/Training1.jpg" 
+       alt="Training Process Flow" 
+       style="max-width: 10%; height: auto; border: 1px solid #999; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
 ## Relevant Skills Demonstrated: 
-Training Program Management, Needs Analysis, Curriculum Development, Change Management, Lean Principles, Performance Measurement (KPIs), Standardization.
+`Training Program Management`, `Needs Analysis`, `Curriculum Development`, `Change Management`, `Lean Principles`, `Performance Measurement`, `KPIs`, `Standardization`.
