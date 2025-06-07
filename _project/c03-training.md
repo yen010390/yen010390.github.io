@@ -6,14 +6,10 @@ category: "Category 3: Lean Manufacturing & Continuous Improvement"
 tag: ["Training Program Management", "Needs Analysis", "Curriculum Development", "Change Management", "Lean Principles", "Performance Measurement", "KPIs", "Standardization"]
 ---
 
-# 
-Training gap, training needs from cooperation and issues, training plan, employee list, training material, training record.
-
-
-## Project Description: 
+## 📄 Project Description: 
 Managed the end-to-end plant training program by analyzing training gaps from operational issues and departmental needs. I developed a comprehensive yearly training plan in collaboration with Quality, EHS, and HR departments to build a skilled and compliant workforce.
 
-## Key Achievements: 
+## 🏆 Key Achievements: 
 - Centralized the employee training masterlist and completely rewrote training materials for clarity and effectiveness.
 
 - Designed and deployed digital training classes and quizzes to automate the collection of training records and ensure comprehension.
@@ -26,5 +22,5 @@ Managed the end-to-end plant training program by analyzing training gaps from op
        style="max-width: 10%; height: auto; border: 1px solid #999; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
-## Relevant Skills Demonstrated: 
+## 🛠️ Relevant Skills Demonstrated: 
 `Training Program Management`, `Needs Analysis`, `Curriculum Development`, `Change Management`, `Lean Principles`, `Performance Measurement`, `KPIs`, `Standardization`.
