@@ -3,7 +3,7 @@ title: "International Logistics & Container Utilization Optimization"
 excerpt: "Working effectively with cross-functional teams like packaging to re-engineer designs and then use detailed loading simulations to validate processes, achieving significant cost reductions and efficiency gains."
 collection: project
 category: "Category 1: Global Quality Systems & Process Harmonization"
-tag: ["Global Coordination", "Process Design", "Simulation", "Logistics & Supply Chain Optimization", "International Project Management"]
+tags: ["Global Coordination", "Process Design", "Simulation", "Logistics & Supply Chain Optimization", "International Project Management"]
 ---
 
 ## 📄 Project Description: 
