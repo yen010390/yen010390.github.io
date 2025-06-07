@@ -3,7 +3,7 @@ title: "Digitalized Goods Receipt & Supplier Dashboard"
 excerpt: "Design and implement fully paperless digital workflows, creating real-time dashboards that provide end-to-end visibility and deliver significant time and resource savings for both internal teams and external partners."
 collection: project
 category: "Category 2: Digitalization & SAP-Integrated Process Control"
-tag: ["Process Optimization", "Digitalization", "Supplier Relationship Management", "Dashboard", "Tableau", "Power BI", "Real-Time Data Analysis"]
+tags: ["Process Optimization", "Digitalization", "Supplier Relationship Management", "Dashboard", "Tableau", "Power BI", "Real-Time Data Analysis"]
 ---
 
 ## 📄 Project Description: 
