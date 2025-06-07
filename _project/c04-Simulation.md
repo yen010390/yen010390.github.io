@@ -3,7 +3,7 @@ title: "Assembly Line Simulation & Validation"
 excerpt: "Using industry-standard simulation software (Siemens Tecnomatix) to model and de-risk complex manufacturing processes."
 collection: project
 category: "Category 4: Advanced Process Analysis & Simulation"
-tag: ["Process Simulation", "Siemens Tecnomatix", "System Validation", "Process Analysis", "Takttime"]
+tags: ["Process Simulation", "Siemens Tecnomatix", "System Validation", "Process Analysis", "Takttime"]
 ---
 
 ## 📄 Project Description: 
