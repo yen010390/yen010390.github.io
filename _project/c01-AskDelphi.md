@@ -5,8 +5,6 @@ collection: project
 category: "Category 1: Process Digitalization & SAP Integration"
 ---
 
-# Digitalization of Documentation & Training with AskDelphi
-
 ## Project Description: 
 - Led the plant-level deployment and integration of AskDelphi (Speach), a global digital knowledge-sharing platform, to standardize SOPs and training materials.
 - The initiative replaced static, text-heavy documents with dynamic, on-demand video tutorials accessible directly on the factory floor via desktop, tablet, or smartphone.
