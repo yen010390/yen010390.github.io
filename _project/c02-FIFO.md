@@ -5,7 +5,6 @@ collection: project
 category: "Category 2: Digitalization & SAP-Integrated Process Control"
 ---
 
-# Real-Time FIFO Dashboard Control & SAP Integration
 
 ## 📄 Project Description
 Led a project to digitize the FIFO (First-In, First-Out) process on the production floor. The goal was to eliminate manual paperwork and provide real-time visibility into material consumption.
@@ -18,7 +17,8 @@ Led a project to digitize the FIFO (First-In, First-Out) process on the producti
 
 
 ## 🖼️ Image
-  <img src="https://yen010390.github.io/images/AIO-homepage.png" alt="Project Dashboard" style="max-width: 100%; border: 1px solid #999; border-radius: 4px;">
+<img src="https://yen010390.github.io/images/FIFO-1.jpg" alt="FIFO Flow" style="max-width: 30%; border: 1px solid #999; border-radius: 4px;">
+<img src="https://yen010390.github.io/images/FIFO-2.jpg" alt="FIFO Flow" style="max-width: 30%; border: 1px solid #999; border-radius: 4px;">
 
 
 ## 🛠️ Relevant Skills Demonstrated 
