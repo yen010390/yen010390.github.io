@@ -7,8 +7,6 @@ category: "Category 4: Advanced Process Analysis & Simulation"
 
 ## 🌐 List of Projects
 
-[MTM Work & Time Studies](https://yen010390.github.io/project/c04-MTM.md)
+- [MTM Work & Time Studies](https://yen010390.github.io/project/c04-MTM.md)
 
-[Assembly Line Simulation & Validation](https://yen010390.github.io/project/c04-Simulation.md)
-
-
+- [Assembly Line Simulation & Validation](https://yen010390.github.io/project/c04-Simulation.md)
