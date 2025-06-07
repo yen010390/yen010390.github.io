@@ -1,29 +1,11 @@
+---
+layout: default
+title: "All Projects by Category"
+permalink: /projects/
+---
+
 {% include base_path %}
 {% include group-by-array collection=site.project field="category" %}
-
-{% for category in group_names %}
-  {% assign projects = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-
-  {% for project in projects %}
-    <div class="project-item">
-      <div class="project-title">
-        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-      </div>
-      <div class="project-excerpt">
-        {{ project.excerpt | strip_html | truncatewords: 40 }}
-      </div>
-      {% if project.tag %}
-        <div class="project-tags">
-          {% for tag in project.tag %}
-            <span>#{{ tag }}</span>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-  {% endfor %}
-{% endfor %}
-
 
 <style>
   .project-item {
@@ -52,3 +34,26 @@
     display: inline-block;
   }
 </style>
+
+{% for category in group_names %}
+  {% assign projects = group_items[forloop.index0] %}
+  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+
+  {% for project in projects %}
+    <div class="project-item">
+      <div class="project-title">
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </div>
+      <div class="project-excerpt">
+        {{ project.excerpt | strip_html | truncatewords: 40 }}
+      </div>
+      {% if project.tags %}
+        <div class="project-tags">
+          {% for tag in project.tags %}
+            <span>#{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endfor %}
