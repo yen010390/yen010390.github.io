@@ -3,7 +3,7 @@ title: "Digitalization of Maintenance Operations"
 excerpt: "Design and implement solutions that span from user-facing tools (ordering websites) to advanced methodologies like FMEA and Predictive Maintenance, resulting in significant, quantifiable cost savings and improved equipment reliability."
 collection: project
 category: "Category 2: Digitalization & SAP-Integrated Process Control"
-tag: ["Digitalization Strategy", "System Implementation", "Autonomous & Predictive Maintenance", "FMEA", "Inventory Control", "Process Automation"]
+tags: ["Digitalization Strategy", "System Implementation", "Autonomous & Predictive Maintenance", "FMEA", "Inventory Control", "Process Automation"]
 ---
 
 <h2>📄 Project Description:</h2>
