@@ -18,7 +18,7 @@ main:
   #   url: /teaching/    
 
   - title: "Category"
-    url: /category-archive/
+    url: /category/
 
   - title: "Project"
     url: /project/
