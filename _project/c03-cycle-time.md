@@ -1,6 +1,6 @@
 ---
 title: "Statistical Process Control & Cycle Time Reductions"
-excerpt: "Projects focused on replacing manual processes with robust, digital solutions and integrating them with enterprise systems like SAP."
+excerpt: "Applying tools like SPC and Gauge R&R to identify sources of variation and make data-driven improvements."
 collection: project
 category: "Category 3: Lean Manufacturing & Continuous Improvement"
 tag: ["Statistical Process Control", "SPC", "Process Validation", "IQ/PQ/OQ Principles", "SOP", "Lean Manufacturing", "Data Analysis"]
