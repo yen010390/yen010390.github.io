@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yen Dang - Professional Profile Infographic</title>
+    <!-- Chosen Palette: Professional & Stylish (Light Theme) -->
+    <!-- Application Structure Plan: The SPA is structured as a narrative journey through Yen Dang's professional profile. It starts with a high-level summary to establish expertise, followed by a dashboard of quantifiable "Key Metrics" for immediate impact. A "Core Competencies" radar chart visually represents a balanced skillset. The "Key Project Achievements" section uses a grid of cards to detail specific successes, employing simple charts and process flows for clarity. This top-down structure was chosen to quickly engage a hiring manager with impressive results, then provide deeper, contextual evidence of skills and experience. -->
+    <!-- Visualization & Content Choices: 
+        - Profile Summary: Goal: Inform. Method: Text Block. Justification: Provides essential context.
+        - Key Metrics: Goal: Inform. Method: Large Stat Cards (Styled HTML). Justification: High-impact, immediate communication of value.
+        - Core Competencies: Goal: Compare/Organize. Method: Radar Chart (Chart.js Canvas). Justification: Effectively shows balanced strengths across multiple strategic areas.
+        - Global Audit Result: Goal: Compare/Change. Method: Before/After Text Comparison (Styled HTML). Justification: Clear, direct visualization of a major quality improvement.
+        - Cycle Time Reduction: Goal: Compare. Method: Bar Chart (Chart.js Canvas). Justification: Standard, effective way to show a quantitative improvement.
+        - Training Process Flow: Goal: Organize. Method: Process Diagram (Structured HTML/Tailwind). Justification: Illustrates a complex process simply and visually without requiring external libraries.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -227,12 +238,12 @@
             type: 'radar',
             data: {
                 labels: [
-                    'Global Process Harmonization', 
-                    'Global Quality Management', 
-                    'SAP Systems (MM)', 
+                    wrapLabel('Global Process Harmonization'), 
+                    wrapLabel('Global Quality Management'), 
+                    wrapLabel('SAP Systems (MM)'), 
                     'Digitalization', 
-                    'Project Management', 
-                    'Data-Driven Optimization'
+                    wrapLabel('Project Management'), 
+                    wrapLabel('Data-Driven Optimization')
                 ],
                 datasets: [{
                     label: 'Skill Level',
