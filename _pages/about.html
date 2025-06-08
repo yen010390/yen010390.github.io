@@ -169,59 +169,9 @@ author_profile: true
         </footer>
 
     </main>
-
+    {% raw %}
     <script>
-        const tooltipTitleCallback = (tooltipItems) => {
-            const item = tooltipItems[0];
-            let label = item.chart.data.labels[item.dataIndex];
-            if (Array.isArray(label)) {
-                return label.join(' ');
-            }
-            return label;
-        };
-
-        const chartOptions = {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    labels: {
-                        color: '#374151',
-                        font: { size: 14 }
-                    }
-                },
-                tooltip: {
-                    callbacks: {
-                        title: tooltipTitleCallback
-                    }
-                }
-            },
-            scales: {
-                r: {
-                    angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
-                    grid: { color: 'rgba(0, 0, 0, 0.1)' },
-                    pointLabels: {
-                        color: '#1f2937',
-                        font: { size: 14 }
-                    },
-                    ticks: {
-                        color: '#4b5563',
-                        backdropColor: 'rgba(255, 255, 255, 0.75)',
-                        font: { size: 12 }
-                    }
-                },
-                x: {
-                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
-                    ticks: { color: '#4b5563', font: { size: 12 } }
-                },
-                y: {
-                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
-                    ticks: { color: '#4b5563', font: { size: 12 } },
-                    beginAtZero: true
-                }
-            }
-        };
-
+        // Helper function to wrap long labels for charts
         const wrapLabel = (label) => {
             const maxLen = 16;
             if (label.length <= maxLen) return label;
@@ -239,7 +189,43 @@ author_profile: true
             if (currentLine) lines.push(currentLine.trim());
             return lines;
         }
-
+        
+        // Helper for multi-line tooltips
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+        
+        // --- Radar Chart ---
+        const radarChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: { color: '#374151', font: { size: 14 } }
+                },
+                tooltip: {
+                    callbacks: { title: tooltipTitleCallback }
+                }
+            },
+            scales: {
+                r: {
+                    angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                    grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                    pointLabels: { color: '#1f2937', font: { size: 14 } },
+                    ticks: {
+                        color: '#4b5563',
+                        backdropColor: 'rgba(255, 255, 255, 0.75)',
+                        font: { size: 12 }
+                    }
+                }
+            }
+        };
+        
         new Chart(document.getElementById('competenciesChart'), {
             type: 'radar',
             data: {
@@ -262,8 +248,30 @@ author_profile: true
                     pointHoverBorderColor: 'rgb(13, 148, 136)'
                 }]
             },
-            options: chartOptions
+            options: radarChartOptions
         });
+        
+        // --- Bar Chart ---
+        const barChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: { color: '#374151', font: { size: 14 } }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                    ticks: { color: '#4b5563', font: { size: 12 } }
+                },
+                y: {
+                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                    ticks: { color: '#4b5563', font: { size: 12 } },
+                    beginAtZero: true
+                }
+            }
+        };
 
         new Chart(document.getElementById('cycleTimeChart'), {
             type: 'bar',
@@ -277,9 +285,9 @@ author_profile: true
                     borderWidth: 2
                 }]
             },
-            options: chartOptions
+            options: barChartOptions
         });
     </script>
-
+    {% endraw %}
 </body>
 </html>
