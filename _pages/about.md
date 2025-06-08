@@ -1,69 +1,268 @@
----
-permalink: /
-title: "🌟 Welcome to My Page"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yen Dang - Professional Profile Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .stat-card {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
 
-## 👋 Hi there, I'm Dang Thi Hoang Yen
+    <main class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-black uppercase text-gray-900 tracking-wider">Dang, Thi Hoang Yen</h1>
+            <p class="mt-4 text-xl md:text-2xl text-blue-600 font-light">Global Process & Manufacturing Excellence</p>
+        </header>
 
-An Industrial Engineer passionate about data-driven optimization, sustainable operations, and machine learning applications in production systems.
+        <section id="summary" class="mb-20">
+            <div class="max-w-4xl mx-auto text-center p-8 bg-white rounded-2xl shadow-lg">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Professional Profile</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    A results-driven Process & Project Manager with over 5 years of experience specializing in the global harmonization, standardization, and digitalization of business processes in regulated GMP environments. A certified Lean Six Sigma Black Belt with proven expertise in leveraging SAP systems to drive quality and efficiency improvements in international manufacturing settings.
+                </p>
+            </div>
+        </section>
 
-## 💼 About Me
-I am an industrial engineering professional with hands-on experience in manufacturing excellence and supply chain optimization. 
+        <section id="key-metrics" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Career Highlights at a Glance</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="stat-card p-6 rounded-2xl text-center">
+                    <div class="text-5xl font-extrabold text-teal-600">57%</div>
+                    <div class="mt-2 text-lg text-gray-700">Production Rate Increase</div>
+                    <p class="text-sm text-gray-500">(MTM Work & Time Study)</p>
+                </div>
+                <div class="stat-card p-6 rounded-2xl text-center">
+                    <div class="text-5xl font-extrabold text-teal-600">50%</div>
+                    <div class="mt-2 text-lg text-gray-700">Process Time Reduction</div>
+                     <p class="text-sm text-gray-500">(Digitalized Goods Receipt)</p>
+                </div>
+                 <div class="stat-card p-6 rounded-2xl text-center">
+                    <div class="text-5xl font-extrabold text-teal-600">98%</div>
+                    <div class="mt-2 text-lg text-gray-700">Container Utilization</div>
+                     <p class="text-sm text-gray-500">(LATAM & Thailand Routes)</p>
+                </div>
+                <div class="stat-card p-6 rounded-2xl text-center">
+                    <div class="text-5xl font-extrabold text-teal-600">$10.4k</div>
+                    <div class="mt-2 text-lg text-gray-700">Annual Savings</div>
+                    <p class="text-sm text-gray-500">(Maintenance Optimization)</p>
+                </div>
+            </div>
+        </section>
 
-My academic and professional journey has been shaped by my commitment to solving real-world problems with technical innovation and human-centered design.
+        <section id="competencies" class="mb-20">
+             <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Core Competencies</h2>
+             <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+                <div class="chart-container" style="height: 400px; max-width: 600px;">
+                    <canvas id="competenciesChart"></canvas>
+                </div>
+                <p class="text-center mt-4 text-gray-500">A visual representation of key skill areas, showcasing a well-rounded expertise in both strategic management and technical execution.</p>
+             </div>
+        </section>
 
-## My experience spans:
+        <section id="achievements" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Key Project Achievements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-- Lean manufacturing and operations improvement at Colgate-Palmolive
+                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Global Quality Audit Enhancement</h3>
+                    <p class="text-gray-700 mb-6">Led strategic initiatives including "Committee Team Gemba" and "Kaizen Breakthrough" events to address systemic quality issues. This hands-on, collaborative approach with leadership resulted in a dramatic improvement in compliance and process maturity.</p>
+                    <div class="bg-gray-100 rounded-lg p-4 text-center">
+                        <span class="text-2xl font-bold text-red-600">Major Finding (A)</span>
+                        <span class="text-2xl font-bold text-gray-500 mx-4">→</span>
+                        <span class="text-2xl font-bold text-green-600">Minor Finding (C)</span>
+                        <p class="text-sm text-gray-500 mt-2">ISO 9001 / Global Audit Result</p>
+                    </div>
+                </div>
 
-- Circular economy research funded by DAAD in collaboration with TU Berlin
+                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Statistical Process Control & Cycle Time Reduction</h3>
+                     <p class="text-gray-700 mb-4">Applied advanced statistical methods (Gauge R&R, SPC) to analyze and optimize 50 VIM machines. Developed and implemented new SOPs to lock in the gains.</p>
+                    <div class="chart-container" style="height: 250px;">
+                        <canvas id="cycleTimeChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
+                     <h3 class="text-xl font-bold text-gray-900 mb-4">Process Flow Harmonization: From Gap Analysis to Training</h3>
+                     <p class="text-gray-700 mb-6">Designed and managed the complete lifecycle of technical training programs by identifying skill gaps and collaborating with Quality and HR to build a strategic yearly plan. This process ensures all training is relevant, effective, and directly addresses operational needs.</p>
+                     <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 text-center">
+                         <div class="flex-1 p-3 bg-gray-100 rounded-lg">
+                             <div class="text-blue-600 text-2xl mb-1">①</div>
+                             <p class="font-semibold">Gap Analysis</p>
+                             <p class="text-xs text-gray-500">Identify Needs from Issues & KPIs</p>
+                         </div>
+                         <div class="text-2xl text-gray-400 hidden md:block">→</div>
+                         <div class="flex-1 p-3 bg-gray-100 rounded-lg">
+                            <div class="text-blue-600 text-2xl mb-1">②</div>
+                             <p class="font-semibold">Strategic Plan</p>
+                             <p class="text-xs text-gray-500">Develop Yearly Plan with HR/Quality</p>
+                         </div>
+                         <div class="text-2xl text-gray-400 hidden md:block">→</div>
+                         <div class="flex-1 p-3 bg-gray-100 rounded-lg">
+                            <div class="text-blue-600 text-2xl mb-1">③</div>
+                             <p class="font-semibold">Material Creation</p>
+                              <p class="text-xs text-gray-500">Rewrite SOPs & Digitize Content</p>
+                         </div>
+                          <div class="text-2xl text-gray-400 hidden md:block">→</div>
+                         <div class="flex-1 p-3 bg-gray-100 rounded-lg">
+                            <div class="text-blue-600 text-2xl mb-1">④</div>
+                             <p class="font-semibold">Execution & Record</p>
+                             <p class="text-xs text-gray-500">Deliver Training & Track via Quizzes</p>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
 
-- Data science & optimization coursework and certifications via Coursera, edX, and top universities
+        <footer class="text-center mt-20 pt-8 border-t border-gray-300">
+             <p class="text-gray-600">This infographic was dynamically generated to showcase professional experience.</p>
+             <p class="text-sm text-gray-500 mt-2">Data sourced from the CV of Dang, Thi Hoang Yen. No SVG or Mermaid JS used in this production.</p>
+        </footer>
 
-- I am currently expanding my expertise in data analytics and operations research, with the goal of contributing to sustainable, efficient, and intelligent production systems.
+    </main>
 
-## 🎓 Education
-- M.Sc. in Global Production Engineering, TU Berlin / Vietnam-Germany University (DAAD Scholarship)
+    <script>
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
 
-- B.Sc. in Industrial Management, Ho Chi Minh City University of Technology
+        const chartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: '#374151',
+                        font: { size: 14 }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    }
+                }
+            },
+            scales: {
+                r: {
+                    angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                    grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                    pointLabels: {
+                        color: '#1f2937',
+                        font: { size: 14 }
+                    },
+                    ticks: {
+                        color: '#4b5563',
+                        backdropColor: 'rgba(255, 255, 255, 0.75)',
+                        font: { size: 12 }
+                    }
+                },
+                x: {
+                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                    ticks: { color: '#4b5563', font: { size: 12 } }
+                },
+                y: {
+                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                    ticks: { color: '#4b5563', font: { size: 12 } },
+                    beginAtZero: true
+                }
+            }
+        };
 
-- Additional coursework in AI and Operations Research (Coursera, NTU, HCMUS)
+        const wrapLabel = (label) => {
+            const maxLen = 16;
+            if (label.length <= maxLen) return label;
+            const words = label.split(' ');
+            let lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).trim().length > maxLen) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            }
+            if (currentLine) lines.push(currentLine.trim());
+            return lines;
+        }
 
-## 🔍 What I’m Looking For
-I’m currently seeking Ph.D. opportunities, data engineering/analytics roles, or research-based positions where I can apply my background in operations research and manufacturing to complex system problems, especially in sustainable or industrial domains.
+        new Chart(document.getElementById('competenciesChart'), {
+            type: 'radar',
+            data: {
+                labels: [
+                    'Global Process Harmonization', 
+                    'Global Quality Management', 
+                    'SAP Systems (MM)', 
+                    'Digitalization', 
+                    'Project Management', 
+                    'Data-Driven Optimization'
+                ],
+                datasets: [{
+                    label: 'Skill Level',
+                    data: [5, 4.8, 4.6, 4.6, 4.7, 4.2],
+                    backgroundColor: 'rgba(13, 148, 136, 0.2)',
+                    borderColor: 'rgb(13, 148, 136)',
+                    pointBackgroundColor: 'rgb(13, 148, 136)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(13, 148, 136)'
+                }]
+            },
+            options: chartOptions
+        });
 
-## 🛠️ Skills & Tools
-- Programming: Python, SQL, MATLAB
+        new Chart(document.getElementById('cycleTimeChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Before Optimization', 'After Optimization'],
+                datasets: [{
+                    label: 'Cycle Time (seconds)',
+                    data: [16.5, 15],
+                    backgroundColor: ['rgba(220, 38, 38, 0.6)', 'rgba(13, 148, 136, 0.6)'],
+                    borderColor: ['rgb(220, 38, 38)', 'rgb(13, 148, 136)'],
+                    borderWidth: 2
+                }]
+            },
+            options: chartOptions
+        });
+    </script>
 
-- Libraries: NumPy, Pandas, SciPy, Scikit-learn, PuLP
-
-- Analytics: Data Visualization, Forecasting, Optimization Modeling
-
-- Tools: Power BI, Jupyter, Git, Excel VBA
-
-- Languages: English (fluent), German (A2 level), Vietnamese (native)
-
-## 📌 Projects & Research
-- Circular Economy Framework – Engineered wood value chain analysis (TU Berlin / DAAD)
-
-- Shop Floor Optimization – Workstation redesign, layout, and flow improvement (Colgate-Palmolive)
-
-- Digital Inventory Management – Inbound process redesign with efficiency gains
-
-- Master’s Thesis – Modeling economic and material flow feasibility of recycling systems
-
-- See my projects on GitHub.
-
-## 📫 Get in Touch
-- 📧 Email: [yendang.dthy@gmail.com]
-
-- 💼 LinkedIn: linkedin.com/in/yen-dang-0103/
-
-- 🌐 GitHub: github.com/yen010390
-
-🤝 Let’s Collaborate
-Suppose you’re looking for someone who can bridge technical modeling and business needs, or want to collaborate on a project in operations, analytics, or sustainable manufacturing. In that case, I’d love to hear from you.
+</body>
+</html>
