@@ -1,4 +1,10 @@
-# Dang, Thi Hoang Yen  
+---
+layout: archive
+permalink: /
+title: "Dang, Thi Hoang Yen"
+author_profile: true
+---
+
 ### *Global Process & Manufacturing Excellence*
 
 ---
