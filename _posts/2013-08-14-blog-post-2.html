@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 2'
+title: 'Continuous Improvement (CI) Culture Roadmap'
 date: 2013-08-14
 permalink: /posts/2013/08/blog-post-2/
 tags:
@@ -23,33 +23,16 @@ tags:
             scroll-behavior: smooth;
         }
         .section-title {
-            @apply text-3xl font-bold text-gray-800 mb-8 text-center;
+            @apply text-4xl font-bold text-gray-800 mb-8 text-center;
+        }
+        .section-title .highlight {
+            @apply bg-gray-200 px-8 py-3 rounded-full;
         }
         .card {
             @apply bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
         }
         .principle-icon {
             @apply text-4xl text-blue-600 mb-4;
-        }
-        .roadmap-year {
-            @apply bg-gray-50 p-6 rounded-lg mb-6;
-        }
-        .pipeline-step {
-            @apply relative pl-10 pb-8;
-        }
-        .pipeline-step:last-child {
-            @apply pb-0;
-        }
-        .pipeline-step::before {
-            content: '';
-            @apply absolute left-4 top-1 w-2 h-2 bg-blue-600 rounded-full;
-        }
-        .pipeline-step::after {
-            content: '';
-            @apply absolute left-5 top-4 w-px h-full bg-blue-300;
-        }
-        .pipeline-step:last-child::after {
-            @apply h-0;
         }
         .challenge-icon {
             @apply text-red-500 text-2xl mr-4;
@@ -61,171 +44,131 @@ tags:
 </head>
 <body class="bg-gray-100 text-gray-700">
 
-    <!-- Header Section -->
-    <header class="bg-white shadow-md">
-        <div class="container mx-auto px-6 py-4">
-            <h1 class="text-3xl font-bold text-gray-900">CI Culture Roadmap</h1>
-            <p class="mt-2 text-gray-600">A guide to building and sustaining a culture of continuous improvement.</p>
-        </div>
-    </header>
-
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-12">
 
         <!-- What is CI Culture Section -->
         <section id="what-is-ci" class="mb-16">
-            <h2 class="section-title">What is a Continuous Improvement Culture?</h2>
-            <p class="text-center max-w-3xl mx-auto mb-10 text-lg">
-                A Continuous Improvement culture is a corporate environment where all employees are empowered and actively encouraged to consistently identify and implement incremental improvements. It's about making small, ongoing, positive changes to processes and products, driven by everyone, every day.
-            </p>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="card text-center">
-                    <i class="fas fa-lightbulb principle-icon"></i>
-                    <h3 class="font-bold text-xl mb-2">Empowerment</h3>
-                    <p>Giving every team member the tools and trust to make changes.</p>
-                </div>
-                <div class="card text-center">
-                    <i class="fas fa-chart-line principle-icon"></i>
-                    <h3 class="font-bold text-xl mb-2">Data-Driven</h3>
-                    <p>Using metrics and facts, not assumptions, to guide decisions.</p>
-                </div>
-                <div class="card text-center">
-                    <i class="fas fa-users principle-icon"></i>
-                    <h3 class="font-bold text-xl mb-2">Collaboration</h3>
-                    <p>Working together across teams and departments to solve problems.</p>
-                </div>
-                <div class="card text-center">
-                    <i class="fas fa-rocket principle-icon"></i>
-                    <h3 class="font-bold text-xl mb-2">Proactive Mindset</h3>
-                    <p>Shifting from reacting to problems to preventing them.</p>
+            <h1 class="section-title"><span class="highlight">What is a Continuous Improvement Culture?</span></h1>
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <p class="text-center text-lg text-gray-700 mb-10">
+                    A Continuous Improvement culture is a corporate environment where all employees are engaged in making ongoing positive changes.
+                </p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center p-4">
+                        <i class="fas fa-lightbulb principle-icon"></i>
+                        <h3 class="font-bold text-xl mb-2">Empowerment</h3>
+                        <p>Giving every team member the tools and trust to make changes.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <i class="fas fa-chart-line principle-icon"></i>
+                        <h3 class="font-bold text-xl mb-2">Data-Driven</h3>
+                        <p>Using metrics and facts, not assumptions, to guide decisions.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <i class="fas fa-users principle-icon"></i>
+                        <h3 class="font-bold text-xl mb-2">Collaboration</h3>
+                        <p>Working together across teams and departments to solve problems.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <i class="fas fa-rocket principle-icon"></i>
+                        <h3 class="font-bold text-xl mb-2">Proactive Mindset</h3>
+                        <p>Shifting from reacting to problems to preventing them.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- The CI Journey: A Visual Roadmap Section -->
         <section id="roadmap" class="mb-16">
-            <h2 class="section-title">The CI Journey: A Visual Roadmap</h2>
-            <div class="space-y-8">
-                <!-- Year 1 -->
-                <div class="roadmap-year">
-                    <h3 class="text-2xl font-bold text-blue-700 mb-4">YEAR 1: Laying the Foundation 🌱</h3>
-                    <p class="mb-4"><strong>Focus:</strong> Introduce basic CI concepts (like the 8 Wastes), run small, controlled projects to build confidence, and create the governance structure.</p>
-                    <div class="flex flex-wrap items-center text-center">
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-blue-200 text-blue-800 px-4 py-2 rounded-full w-full inline-block">Awareness & Training</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-blue-200 text-blue-800 px-4 py-2 rounded-full w-full inline-block">Pilot Projects</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-blue-200 text-blue-800 px-4 py-2 rounded-full w-full inline-block">Steering Committee</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-blue-200 text-blue-800 px-4 py-2 rounded-full w-full inline-block">Communication Plan</span></div>
-                    </div>
-                </div>
-                <!-- Year 2 -->
-                <div class="roadmap-year">
-                    <h3 class="text-2xl font-bold text-green-700 mb-4">YEAR 2: Building Momentum & Capability 📈</h3>
-                    <p class="mb-4"><strong>Focus:</strong> Scale the program by training dedicated "champions," introduce more structured CI methodologies, and begin celebrating successes publicly to build momentum.</p>
-                     <div class="flex flex-wrap items-center text-center">
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-green-200 text-green-800 px-4 py-2 rounded-full w-full inline-block">Expand CI Tools</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-green-200 text-green-800 px-4 py-2 rounded-full w-full inline-block">CI Champions</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-green-200 text-green-800 px-4 py-2 rounded-full w-full inline-block">Site-wide Projects</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-green-200 text-green-800 px-4 py-2 rounded-full w-full inline-block">Recognition</span></div>
-                    </div>
-                </div>
-                <!-- Year 3+ -->
-                <div class="roadmap-year">
-                    <h3 class="text-2xl font-bold text-purple-700 mb-4">YEAR 3 & BEYOND: Sustaining & Innovating 🎯</h3>
-                    <p class="mb-4"><strong>Focus:</strong> Make CI a non-negotiable part of everyone's role and the company's strategic planning. Develop in-house experts to tackle the most complex business challenges.</p>
-                     <div class="flex flex-wrap items-center text-center">
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-purple-200 text-purple-800 px-4 py-2 rounded-full w-full inline-block">Integrate Goals</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-purple-200 text-purple-800 px-4 py-2 rounded-full w-full inline-block">Advanced Training</span></div>
-                        <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-purple-200 text-purple-800 px-4 py-2 rounded-full w-full inline-block">Link to Strategy</span></div>
-                         <div class="w-full sm:w-auto p-2 text-gray-400"><i class="fas fa-arrow-right"></i></div>
-                        <div class="w-full sm:w-1/2 lg:w-1/4 p-2"><span class="bg-purple-200 text-purple-800 px-4 py-2 rounded-full w-full inline-block">'The Way We Work'</span></div>
-                    </div>
-                </div>
+            <h1 class="section-title"><span class="highlight">The CI Journey: A Visual Roadmap</span></h1>
+            <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <img src="/image/CI-roadmap.png" alt="CI Roadmap" class="w-full rounded-md shadow-inner">
             </div>
         </section>
 
         <!-- The CI Program Pipeline Section -->
         <section id="pipeline" class="mb-16">
-            <h2 class="section-title">The CI Program Pipeline: From Idea to Impact</h2>
-            <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-                <div class="pipeline-step">
-                    <h3 class="font-bold text-lg mb-1">💡 Idea Generation</h3>
-                    <p class="text-gray-600">Suggestion Boxes, Gemba Walks, Team Huddles</p>
-                </div>
-                <div class="pipeline-step">
-                    <h3 class="font-bold text-lg mb-1">📋 Idea Screening & Prioritization</h3>
-                    <p class="text-gray-600">Impact/Effort Matrix by CI Committee</p>
-                </div>
-                <div class="pipeline-step">
-                    <h3 class="font-bold text-lg mb-1">🚀 Project Launch</h3>
-                    <p class="text-gray-600">Form Team, Define Scope using A3/DMAIC</p>
-                </div>
-                <div class="pipeline-step">
-                    <h3 class="font-bold text-lg mb-1">🛠️ Implementation & Tracking</h3>
-                    <p class="text-gray-600">Regular Check-ins, Visual Management Boards</p>
-                </div>
-                <div class="pipeline-step">
-                    <h3 class="font-bold text-lg mb-1">✅ Review & Standardize</h3>
-                    <p class="text-gray-600">Share Learnings, Update SOPs, Control Plan</p>
-                </div>
-                <div class="pipeline-step">
-                    <h3 class="font-bold text-lg mb-1">🎉 Recognition & Celebration</h3>
-                    <p class="text-gray-600">Acknowledge Team Efforts and Results</p>
+            <h1 class="section-title">The CI Program Pipeline: From Idea to Impact</h1>
+            <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-xl mb-2">💡 Idea Generation</h3>
+                        <p>Suggestion Boxes, Gemba Walks, Team Huddles</p>
+                    </div>
+                    <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-xl mb-2">📋 Idea Screening & Prioritization</h3>
+                        <p>Impact/Effort Matrix by CI Committee</p>
+                    </div>
+                    <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-xl mb-2">🚀 Project Launch</h3>
+                        <p>Form Team, Define Scope using A3/DMAIC</p>
+                    </div>
+                    <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-xl mb-2">🛠️ Implementation & Tracking</h3>
+                        <p>Regular Check-ins, Visual Management Boards</p>
+                    </div>
+                    <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-xl mb-2">✅ Review & Standardize</h3>
+                        <p>Share Learnings, Update SOPs, Control Plan</p>
+                    </div>
+                    <div class="text-center p-6 bg-gray-50 rounded-lg border border-gray-200">
+                        <h3 class="font-bold text-xl mb-2">🎉 Recognition & Celebration</h3>
+                        <p>Acknowledge Team Efforts and Results</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Overcoming the Hurdles Section -->
-        <section id="challenges">
-            <h2 class="section-title">Overcoming the Hurdles</h2>
-            <div class="max-w-4xl mx-auto space-y-6">
-                <div class="card flex items-start">
-                    <i class="fas fa-people-arrows challenge-icon"></i>
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Resistance to Change</h3>
-                        <p>Shifting the mindset from "I operate, you fix" to shared ownership requires consistent communication and demonstrating value for everyone.</p>
+        <section id="challenges" class="mb-16">
+            <h1 class="section-title"><span class="highlight">Overcoming the Hurdles</span></h1>
+            <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="flex items-start">
+                        <i class="fas fa-people-arrows challenge-icon"></i>
+                        <div>
+                            <h3 class="font-bold text-xl mb-2">Resistance to Change</h3>
+                            <p>Shifting the mindset from "I operate, you fix" to shared ownership requires consistent communication and demonstrating value for everyone.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card flex items-start">
-                    <i class="fas fa-clock challenge-icon"></i>
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Time Commitment</h3>
-                        <p>Dedicating time for training and CI activities in a high-demand environment requires careful planning and unwavering management support.</p>
+                    <div class="flex items-start">
+                        <i class="fas fa-clock challenge-icon"></i>
+                        <div>
+                            <h3 class="font-bold text-xl mb-2">Time Commitment</h3>
+                            <p>Dedicating time for training and CI activities in a high-demand environment requires careful planning and unwavering management support.</p>
+                        </div>
                     </div>
-                </div>
-                 <div class="card flex items-start">
-                    <i class="fas fa-layer-group challenge-icon"></i>
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Retaining Previous Steps</h3>
-                        <p>As the team advances, there's a risk of neglecting foundational disciplines. Maintaining habits like 5S is critical for long-term success.</p>
+                     <div class="flex items-start">
+                        <i class="fas fa-layer-group challenge-icon"></i>
+                        <div>
+                            <h3 class="font-bold text-xl mb-2">Retaining Previous Steps</h3>
+                            <p>As the team advances, there's a risk of neglecting foundational disciplines. Maintaining habits like 5S is critical for long-term success.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card flex items-start">
-                    <i class="fas fa-flag-checkered challenge-icon"></i>
-                    <div>
-                        <h3 class="font-bold text-xl mb-2">Sustaining Momentum</h3>
-                        <p>Initial enthusiasm can wane. It's crucial to celebrate small wins, track progress visibly, and continuously reinforce the program's importance.</p>
+                    <div class="flex items-start">
+                        <i class="fas fa-flag-checkered challenge-icon"></i>
+                        <div>
+                            <h3 class="font-bold text-xl mb-2">Sustaining Momentum</h3>
+                            <p>Initial enthusiasm can wane. It's crucial to celebrate small wins, track progress visibly, and continuously reinforce the program's importance.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-    </main>
+        <!-- Working Experience & Conclusion Section -->
+        <section id="conclusion">
+             <h1 class="section-title"><span class="highlight">Working Experience & Conclusion</span></h1>
+             <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                 <div class="text-lg text-gray-700 space-y-4">
+                    <p>Based on my experience in Lean environments, successfully launching a new program requires clear ownership and a structured approach. As a Standard Owner, the most critical task is to establish a clear and repeatable process that the organization can follow. This roadmap is designed to serve as that foundational standard.</p>
+                    <p>By defining the journey from the very beginning—from initial training to full cultural transformation—we provide teams with a predictable path to success. The frameworks outlined here are not just theoretical; they are practical tools to overcome resistance, manage resources, and build a self-sustaining culture of improvement. Ultimately, a successful CI program doesn't happen by accident; it is the result of deliberate design, consistent effort, and committed leadership.</p>
+                 </div>
+             </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white mt-16">
-        <div class="container mx-auto px-6 py-4 text-center">
-            <p>&copy; 2025 Your Company Name. All Rights Reserved.</p>
-            <p class="text-sm text-gray-400">Driving Excellence Through Continuous Improvement.</p>
-        </div>
-    </footer>
+    </main>
 
 </body>
 </html>
