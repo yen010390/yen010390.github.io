@@ -11,11 +11,12 @@ author_profile: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yen Dang - Professional Profile Infographic</title>
     <!-- Chosen Palette: Professional & Stylish (Light Theme) -->
-    <!-- Application Structure Plan: The SPA is structured as a narrative journey through Yen Dang's professional profile. It starts with a high-level summary to establish expertise, followed by a dashboard of quantifiable "Key Metrics" for immediate impact. A "Core Competencies" radar chart visually represents a balanced skillset. The "Key Project Achievements" section uses a grid of cards to detail specific successes, employing simple charts and process flows for clarity. This top-down structure was chosen to quickly engage a hiring manager with impressive results, then provide deeper, contextual evidence of skills and experience. -->
+    <!-- Application Structure Plan: The SPA is structured as a narrative journey through Yen Dang's professional profile. It starts with a high-level summary to establish expertise, followed by a dashboard of quantifiable "Key Metrics" for immediate impact. A "Core Competencies" radar chart visually represents a balanced skillset. A new "Key Strengths" section is added to explicitly address teamwork and analytical skills. The "Key Project Achievements" section uses a grid of cards to detail specific successes. This top-down structure was chosen to quickly engage a hiring manager with impressive results, then provide deeper, contextual evidence of skills and experience. -->
     <!-- Visualization & Content Choices: 
         - Profile Summary: Goal: Inform. Method: Text Block. Justification: Provides essential context.
         - Key Metrics: Goal: Inform. Method: Large Stat Cards (Styled HTML). Justification: High-impact, immediate communication of value.
         - Core Competencies: Goal: Compare/Organize. Method: Radar Chart (Chart.js Canvas). Justification: Effectively shows balanced strengths across multiple strategic areas.
+        - Key Strengths Section (New): Goal: Inform/Organize. Method: Two-column layout (Styled HTML). Justification: Directly addresses specific recruiting requirements with evidence-based points.
         - Global Audit Result: Goal: Compare/Change. Method: Before/After Text Comparison (Styled HTML). Justification: Clear, direct visualization of a major quality improvement.
         - Cycle Time Reduction: Goal: Compare. Method: Bar Chart (Chart.js Canvas). Justification: Standard, effective way to show a quantitative improvement.
         - Training Process Flow: Goal: Organize. Method: Process Diagram (Structured HTML/Tailwind). Justification: Illustrates a complex process simply and visually without requiring external libraries.
@@ -51,6 +52,10 @@ author_profile: true
         .stat-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .strength-icon {
+            font-size: 2rem;
+            line-height: 1;
         }
     </style>
 </head>
@@ -98,18 +103,46 @@ author_profile: true
             </div>
         </section>
 
+        <section id="key-strengths" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Key Strengths in Action</h2>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="strength-icon text-blue-600 mr-4">📊</div>
+                        <h3 class="text-2xl font-bold text-gray-900">Strong Analytical Skills</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">My approach is rooted in data-driven decision-making. I translate complex operational data into actionable insights to identify root causes and drive measurable improvements.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Applied **Statistical Process Control (SPC)** to analyze machine performance, leading to a 9% cycle time reduction.</li>
+                        <li>Conducted detailed **Methods-Time Measurement (MTM)** studies to quantify non-value-added activities, boosting production rate by 57%.</li>
+                        <li>Used **simulation and data modeling** to redesign packaging and optimize loading processes, increasing container utilization to 98%.</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                         <div class="strength-icon text-blue-600 mr-4">🤝</div>
+                        <h3 class="text-2xl font-bold text-gray-900">Interdisciplinary Teamwork</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">I excel at leading and collaborating with diverse, cross-functional teams to align on goals and execute complex projects that impact the entire value chain.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Collaborated with **Quality, Engineering, and Leadership** in Kaizen events to elevate our Global Quality Audit score.</li>
+                        <li>Partnered with the **SAP technical team** to design and deploy new digital functions for real-time FIFO tracking in SAP MM.</li>
+                        <li>Worked with **HR and department heads** to develop a strategic, plant-wide annual training plan based on identified needs from all areas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section id="competencies" class="mb-20">
              <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Core Competencies</h2>
              <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8">
-                <div class="chart-container" style="height: 400px; max-width: 600px;">
-                    <canvas id="competenciesChart"></canvas>
-                </div>
+                <img src="images/core-compentencies.png" alt="Core competencies chart" class="w-full max-w-lg mx-auto">
                 <p class="text-center mt-4 text-gray-500">A visual representation of key skill areas, showcasing a well-rounded expertise in both strategic management and technical execution.</p>
              </div>
         </section>
 
         <section id="achievements" class="mb-20">
-            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Key Project Achievements</h2>
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Key Project Spotlights</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                 <div class="bg-white rounded-2xl p-6 shadow-lg">
@@ -126,9 +159,7 @@ author_profile: true
                 <div class="bg-white rounded-2xl p-6 shadow-lg">
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Statistical Process Control & Cycle Time Reduction</h3>
                      <p class="text-gray-700 mb-4">Applied advanced statistical methods (Gauge R&R, SPC) to analyze and optimize 50 VIM machines. Developed and implemented new SOPs to lock in the gains.</p>
-                    <div class="chart-container" style="height: 250px;">
-                        <canvas id="cycleTimeChart"></canvas>
-                    </div>
+                     <img src="images/cycle-time-graph.png" alt="Cycle time reduction graph" class="w-full max-w-md mx-auto mt-4">
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
@@ -169,9 +200,59 @@ author_profile: true
         </footer>
 
     </main>
-    {% raw %}
+
     <script>
-        // Helper function to wrap long labels for charts
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+
+        const chartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: '#374151',
+                        font: { size: 14 }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    }
+                }
+            },
+            scales: {
+                r: {
+                    angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                    grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                    pointLabels: {
+                        color: '#1f2937',
+                        font: { size: 14 }
+                    },
+                    ticks: {
+                        color: '#4b5563',
+                        backdropColor: 'rgba(255, 255, 255, 0.75)',
+                        font: { size: 12 }
+                    }
+                },
+                x: {
+                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                    ticks: { color: '#4b5563', font: { size: 12 } }
+                },
+                y: {
+                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                    ticks: { color: '#4b5563', font: { size: 12 } },
+                    beginAtZero: true
+                }
+            }
+        };
+
         const wrapLabel = (label) => {
             const maxLen = 16;
             if (label.length <= maxLen) return label;
@@ -189,105 +270,8 @@ author_profile: true
             if (currentLine) lines.push(currentLine.trim());
             return lines;
         }
-        
-        // Helper for multi-line tooltips
-        const tooltipTitleCallback = (tooltipItems) => {
-            const item = tooltipItems[0];
-            let label = item.chart.data.labels[item.dataIndex];
-            if (Array.isArray(label)) {
-                return label.join(' ');
-            }
-            return label;
-        };
-        
-        // --- Radar Chart ---
-        const radarChartOptions = {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    labels: { color: '#374151', font: { size: 14 } }
-                },
-                tooltip: {
-                    callbacks: { title: tooltipTitleCallback }
-                }
-            },
-            scales: {
-                r: {
-                    angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
-                    grid: { color: 'rgba(0, 0, 0, 0.1)' },
-                    pointLabels: { color: '#1f2937', font: { size: 14 } },
-                    ticks: {
-                        color: '#4b5563',
-                        backdropColor: 'rgba(255, 255, 255, 0.75)',
-                        font: { size: 12 }
-                    }
-                }
-            }
-        };
-        
-        new Chart(document.getElementById('competenciesChart'), {
-            type: 'radar',
-            data: {
-                labels: [
-                    wrapLabel('Global Process Harmonization'), 
-                    wrapLabel('Global Quality Management'), 
-                    wrapLabel('SAP Systems (MM)'), 
-                    'Digitalization', 
-                    wrapLabel('Project Management'), 
-                    wrapLabel('Data-Driven Optimization')
-                ],
-                datasets: [{
-                    label: 'Skill Level',
-                    data: [5, 4.8, 4.6, 4.6, 4.7, 4.2],
-                    backgroundColor: 'rgba(13, 148, 136, 0.2)',
-                    borderColor: 'rgb(13, 148, 136)',
-                    pointBackgroundColor: 'rgb(13, 148, 136)',
-                    pointBorderColor: '#fff',
-                    pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: 'rgb(13, 148, 136)'
-                }]
-            },
-            options: radarChartOptions
-        });
-        
-        // --- Bar Chart ---
-        const barChartOptions = {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    labels: { color: '#374151', font: { size: 14 } }
-                }
-            },
-            scales: {
-                x: {
-                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
-                    ticks: { color: '#4b5563', font: { size: 12 } }
-                },
-                y: {
-                    grid: { color: 'rgba(0, 0, 0, 0.05)' },
-                    ticks: { color: '#4b5563', font: { size: 12 } },
-                    beginAtZero: true
-                }
-            }
-        };
 
-        new Chart(document.getElementById('cycleTimeChart'), {
-            type: 'bar',
-            data: {
-                labels: ['Before Optimization', 'After Optimization'],
-                datasets: [{
-                    label: 'Cycle Time (seconds)',
-                    data: [16.5, 15],
-                    backgroundColor: ['rgba(220, 38, 38, 0.6)', 'rgba(13, 148, 136, 0.6)'],
-                    borderColor: ['rgb(220, 38, 38)', 'rgb(13, 148, 136)'],
-                    borderWidth: 2
-                }]
-            },
-            options: barChartOptions
-        });
     </script>
-    {% endraw %}
+
 </body>
 </html>
