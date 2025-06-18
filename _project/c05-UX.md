@@ -16,6 +16,6 @@ category: "Category 5: Others"
 ## 3. Personal blog website
 [View Personal blog website on Figma](https://www.figma.com/proto/R2OGjp0gxPtCIpDIgQOi4C/Yen-Dang-s-Portfolios?node-id=52-6&t=Tq1w3AIBNQU3GbzY-1&scaling=scale-down&content-scaling=fixed&page-id=52%3A5)
 
-![UX Designer Process](images/UX-Designer-portfolio.png)
+![UX Designer Process](/images/UX-Designer-portfolio.png)
 
-![UX Designer Portfolio](images/UX-Designer-process.png)
+![UX Designer Portfolio](/images/UX-Designer-process.png)
