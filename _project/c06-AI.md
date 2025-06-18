@@ -1,5 +1,5 @@
 ---
-title: "AI project"
+title: "AI project - Research project"
 excerpt: "Projects focused on learning AI."
 collection: project
 category: "Category 5: Others"
