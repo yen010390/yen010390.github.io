@@ -15,7 +15,7 @@ category: "Category 5: Others"
    
    [🔗 M01-Project 1.1-Basic Web.ipynb](https://colab.research.google.com/drive/1-emVwJgWkQZXWs5YGGpEwV1XYdAPfqnH?usp=sharing)
    
-   ![Screenshot-Streamlit](images/M01/M1-Streamlit.png)
+   ![Screenshot-Streamlit](/images/M01/M1-Streamlit.png)
 
    
    [🔗 M01-Project 1.2-RAG-Chatbot](https://colab.research.google.com/drive/1dq8_cvoS9pz5xFVFWDoaQmExazKJL-g_?usp=sharing)
