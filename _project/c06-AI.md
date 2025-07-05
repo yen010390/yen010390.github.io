@@ -8,14 +8,19 @@ category: "Category 5: Others"
 ## 👉 My AI learning path - On-processing: [AIO Project](https://yen010390.github.io/AIO.github.io/)
 
 ## 👉 Projects:
-1. Using Streamlit to build a basic web for Student Score Analyzer:
+1. Using Streamlit, RAG to build a basic web for Student Score Analyzer/ chatbot:
    
-   **Purpose:** Build a basic web to analyze student scores with a Pie chart. Users can upload data with Excel, CSV, or using the default Kaggle
+   **Purpose:** Using RAG - LLM to build a basic web to analyze student scores with a Pie chart or Chatbot. Users can upload data with Excel, CSV, or using the default Kaggle
+   **Tooling:** Streamlit, RAG, Python
    
    [🔗 M01-Project 1.1-Basic Web.ipynb](https://colab.research.google.com/drive/1-emVwJgWkQZXWs5YGGpEwV1XYdAPfqnH?usp=sharing)
    
-   ![Screenshot-Streamlit](/images/M1-Streamlit.png)
+   ![Screenshot-Streamlit](images/M01/M1-Streamlit.png)
 
+   
+   [🔗 M01-Project 1.2-RAG-Chatbot](https://colab.research.google.com/drive/1dq8_cvoS9pz5xFVFWDoaQmExazKJL-g_?usp=sharing)
+   
+   ![Screenshot-Streamlit](/images/M01/RAG.png)
 
 
 ## 👉 Click to group Weekly Blog in LaTeX:
