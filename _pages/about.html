@@ -5,6 +5,7 @@ title: "👋 Hello there, I'm"
 author_profile: true
 ---
 
+<!-- Tailwind + Fonts -->
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,31 +16,23 @@ author_profile: true
   .page__content, .page__content p, .page__content h1, .page__content h2, .page__content h3 {
     font-family: 'Inter', sans-serif !important;
   }
-  .chart-container {
-    position: relative;
-    width: 100%;
-    max-width: 680px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 320px;
-  }
-  @media (min-width: 768px) { .chart-container { height: 380px; } }
   .stat-card {
     background-color: #ffffff; border: 1px solid #e5e7eb;
     transition: transform .3s ease, box-shadow .3s ease;
   }
   .stat-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,.1); }
-  .strength-icon { font-size: 2rem; line-height: 1; }
   .badge{ border:1px solid #e5e7eb; background:#fff; padding:.25rem .5rem; border-radius:.5rem; font-size:.8rem; }
 </style>
 
 <main class="container mx-auto p-4 md:p-8 bg-gray-100 text-gray-800" style="max-width:100%; padding: 0.5rem;">
 
+  <!-- Header -->
   <header class="text-center mb-16 pt-8">
     <h1 class="text-4xl md:text-6xl font-black uppercase text-gray-900 tracking-wider">Dang, Thi Hoang Yen</h1>
     <p class="mt-4 text-xl md:text-2xl text-blue-600 font-light">Global Process & Manufacturing Excellence</p>
   </header>
 
+  <!-- Summary -->
   <section id="summary" class="mb-20">
     <div class="max-w-4xl mx-auto text-center p-8 bg-white rounded-2xl shadow-lg">
       <h2 class="text-2xl font-bold text-gray-900 mb-4">Professional Profile</h2>
@@ -51,6 +44,7 @@ author_profile: true
     </div>
   </section>
 
+  <!-- Key Metrics -->
   <section id="key-metrics" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Career Highlights at a Glance</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -77,19 +71,37 @@ author_profile: true
     </div>
   </section>
 
+  <!-- Core Competencies (PNG) -->
   <section id="competencies" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Core Competencies</h2>
     <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8">
-      <div class="chart-container"><canvas id="competencyRadar"></canvas></div>
+      <img src="/images/Overall_Core_Compentencies.png" alt="Overall Core Competencies" class="w-full max-w-3xl mx-auto rounded-xl shadow">
       <p class="text-center mt-4 text-gray-500">
         A visual representation of key skill areas, showcasing a well-rounded expertise in strategic & technical execution.
       </p>
     </div>
   </section>
 
+  <!-- LSS Skills (2 PNGs) -->
+  <section id="lss-skills" class="mb-20">
+    <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Lean Six Sigma Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl shadow-lg p-6">
+        <h3 class="font-semibold text-gray-900 mb-3 text-center">LSS Skill Map (Radar)</h3>
+        <img src="/images/LSS_Skill_Map.png" alt="LSS Skill Map" class="w-full max-w-lg mx-auto rounded-xl shadow">
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6">
+        <h3 class="font-semibold text-gray-900 mb-3 text-center">LSS Tooling Proficiency (Bar)</h3>
+        <img src="/images/LSS_Tooling_Proficiency.png" alt="LSS Tooling Proficiency" class="w-full max-w-lg mx-auto rounded-xl shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- AI / Data Science Skills (2 PNGs) -->
   <section id="ai-skills" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">AI / Data Science Skills</h2>
 
+    <!-- badges (giữ nguyên nếu muốn) -->
     <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-6 mb-6">
       <div class="flex flex-wrap gap-2 justify-center">
         <span class="badge">Python</span><span class="badge">Pandas</span><span class="badge">NumPy</span>
@@ -104,15 +116,16 @@ author_profile: true
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="bg-white rounded-2xl shadow-lg p-6">
         <h3 class="font-semibold text-gray-900 mb-3 text-center">AI Skill Map (Radar)</h3>
-        <div class="chart-container"><canvas id="aiRadar"></canvas></div>
+        <img src="/images/AI_Skill_Map.png" alt="AI Skill Map" class="w-full max-w-lg mx-auto rounded-xl shadow">
       </div>
       <div class="bg-white rounded-2xl shadow-lg p-6">
-        <h3 class="font-semibold text-gray-900 mb-3 text-center">Tooling Proficiency (Bar)</h3>
-        <div class="chart-container"><canvas id="aiBar"></canvas></div>
+        <h3 class="font-semibold text-gray-900 mb-3 text-center">AI Tooling Proficiency (Bar)</h3>
+        <img src="/images/AI_Tooling_Proficiency.png" alt="AI Tooling Proficiency" class="w-full max-w-lg mx-auto rounded-xl shadow">
       </div>
     </div>
   </section>
 
+  <!-- Project Spotlights -->
   <section id="achievements" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Key Project Spotlights</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -135,8 +148,8 @@ author_profile: true
         <h3 class="text-xl font-bold text-gray-900 mb-4">Statistical Process Control & Cycle Time Reduction</h3>
         <p class="text-gray-700 mb-4">
           Applied Gauge R&R and SPC to analyze and optimize 50 VIM machines. Implemented SOPs to lock in gains.
-        </T>
-        <img src="images/cycle-time-graph.png" alt="Cycle time reduction graph" class="w-full max-w-md mx-auto mt-4">
+        </p>
+        <img src="/images/cycle-time-graph.png" alt="Cycle time reduction graph" class="w-full max-w-md mx-auto mt-4">
       </div>
 
       <div class="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
@@ -175,122 +188,10 @@ author_profile: true
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="text-center mt-20 pt-8 border-t border-gray-300">
     <p class="text-gray-600">This infographic was dynamically generated to showcase professional experience.</p>
     <p class="text-sm text-gray-500 mt-2">© Dang, Thi Hoang Yen — No SVG/Mermaid used.</p>
   </footer>
 
 </main>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-
-<script>
-  // Đảm bảo DOM sẵn sàng trước khi khởi tạo Chart.js
-  document.addEventListener('DOMContentLoaded', function () {
-    // Tùy chọn chung
-    const commonOpts = {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { labels: { color: '#374151', font: { size: 12 } } },
-        tooltip: { callbacks: { title: (items) => items[0].label } }
-      },
-      scales: {
-        r: {
-          angleLines: { color: 'rgba(0,0,0,0.08)' },
-          grid: { color: 'rgba(0,0,0,0.08)' },
-          pointLabels: { color: '#1f2937', font: { size: 13 } },
-          ticks: { color: '#4b5563', backdropColor: 'rgba(255,255,255,0.8)' }
-        },
-        x: { grid: { color: 'rgba(0,0,0,0.05)' }, ticks: { color: '#4b5563', font: { size: 11 } } },
-        y: { grid: { color: 'rgba(0,0,0,0.05)' }, ticks: { color: '#4b5563', font: { size: 11 } }, beginAtZero: true, max: 10 }
-      }
-    };
-
-    // 1) Core Competencies (Radar)
-    const compCtx = document.getElementById('competencyRadar');
-    if (compCtx) {
-      new Chart(compCtx, {
-        type: 'radar',
-        data: {
-          labels: [
-            'Process Excellence',
-            'Project Management',
-            'Data Analysis',
-            'SAP / ERP',
-            'Quality / GMP',
-            'Stakeholder Communication'
-          ],
-          datasets: [{
-            label: 'Proficiency',
-            data: [9, 8, 7, 8, 9, 8],
-            fill: true,
-            backgroundColor: 'rgba(13,148,136,0.20)',
-            borderColor: 'rgba(13,148,136,0.85)',
-            pointBackgroundColor: 'rgba(13,148,136,1)'
-          }]
-        },
-        options: { ...commonOpts, scales: { r: { ...commonOpts.scales.r, suggestedMin: 0, suggestedMax: 10 } } }
-      });
-    }
-
-    // 2) AI Skill Map (Radar)
-    const aiRadarCtx = document.getElementById('aiRadar');
-    if (aiRadarCtx) {
-      new Chart(aiRadarCtx, {
-        type: 'radar',
-        data: {
-          labels: [
-            'Python',
-            'Data Wrangling',
-            'Classical ML',
-            'Tree Ensembles',
-            'Deep Learning',
-            'NLP / RAG',
-            'MLOps Basics'
-          ],
-          datasets: [{
-            label: 'AI Skill Level',
-            data: [9, 8, 8, 9, 6, 7, 6],
-            fill: true,
-            backgroundColor: 'rgba(59,130,246,0.20)',
-            borderColor: 'rgba(59,130,246,0.85)',
-            pointBackgroundColor: 'rgba(59,130,246,1)'
-          }]
-        },
-        options: { ...commonOpts, scales: { r: { ...commonOpts.scales.r, suggestedMin: 0, suggestedMax: 10 } } }
-      });
-    }
-
-    // 3) Tooling Proficiency (Bar)
-    const aiBarCtx = document.getElementById('aiBar');
-    if (aiBarCtx) {
-      new Chart(aiBarCtx, {
-        type: 'bar',
-        data: {
-          labels: [
-            'Pandas','NumPy','scikit-learn',
-            'XGBoost','LightGBM','CatBoost',
-            'TensorFlow','PyTorch',
-            'spaCy/NLTK','LangChain','FAISS',
-            'Streamlit','SQL','Git'
-          ],
-          datasets: [{
-            label: 'Proficiency (0–10)',
-            data: [9,9,9,9,8,7,6,6,7,7,7,9,8,9],
-            backgroundColor: 'rgba(16,185,129,0.35)',
-            borderColor: 'rgba(16,185,129,0.9)',
-            borderWidth: 1.5
-          }]
-        },
-        options: {
-          ...commonOpts,
-          scales: {
-            x: { ...commonOpts.scales.x },
-            y: { ...commonOpts.scales.y, max: 10 }
-          }
-        }
-      });
-    }
-  });
-</script>
