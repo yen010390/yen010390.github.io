@@ -12,7 +12,6 @@ author_profile: true
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
 <style>
-  /* Áp dụng font chữ cho nội dung do Jekyll tạo ra */
   .page__content, .page__content p, .page__content h1, .page__content h2, .page__content h3 {
     font-family: 'Inter', sans-serif !important;
   }
@@ -29,7 +28,6 @@ author_profile: true
   <!-- Header -->
   <header class="text-center mb-16 pt-8">
     <h1 class="text-4xl md:text-6xl font-black uppercase text-gray-900 tracking-wider">Dang, Thi Hoang Yen</h1>
-    <p class="mt-4 text-xl md:text-2xl text-blue-600 font-light">Global Process & Manufacturing Excellence</p>
   </header>
 
   <!-- Summary -->
@@ -71,7 +69,7 @@ author_profile: true
     </div>
   </section>
 
-  <!-- Core Competencies (PNG) -->
+  <!-- Core Competencies -->
   <section id="competencies" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Core Competencies</h2>
     <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8">
@@ -82,9 +80,17 @@ author_profile: true
     </div>
   </section>
 
-  <!-- LSS Skills (2 PNGs) -->
+  <!-- LSS Section -->
   <section id="lss-skills" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Lean Six Sigma Skills</h2>
+
+    <!-- NEW: Keyword map -->
+    <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-6 mb-10">
+      <h3 class="font-semibold text-gray-900 mb-3 text-center">LSS Keyword Map</h3>
+      <img src="/images/LSS_Keyword.png" alt="LSS Keyword Map" class="w-full max-w-3xl mx-auto rounded-xl shadow">
+    </div>
+
+    <!-- Two graphs -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="bg-white rounded-2xl shadow-lg p-6">
         <h3 class="font-semibold text-gray-900 mb-3 text-center">LSS Skill Map (Radar)</h3>
@@ -97,11 +103,10 @@ author_profile: true
     </div>
   </section>
 
-  <!-- AI / Data Science Skills (2 PNGs) -->
+  <!-- AI Skills -->
   <section id="ai-skills" class="mb-20">
     <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">AI / Data Science Skills</h2>
 
-    <!-- badges (giữ nguyên nếu muốn) -->
     <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-6 mb-6">
       <div class="flex flex-wrap gap-2 justify-center">
         <span class="badge">Python</span><span class="badge">Pandas</span><span class="badge">NumPy</span>
@@ -150,39 +155,6 @@ author_profile: true
           Applied Gauge R&R and SPC to analyze and optimize 50 VIM machines. Implemented SOPs to lock in gains.
         </p>
         <img src="/images/cycle-time-graph.png" alt="Cycle time reduction graph" class="w-full max-w-md mx-auto mt-4">
-      </div>
-
-      <div class="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Process Flow Harmonization: From Gap Analysis to Training</h3>
-        <p class="text-gray-700 mb-6">
-          Designed & managed the full training lifecycle: gap analysis, yearly plan with HR/Quality,
-          SOP re-write & digitization, delivery and quiz-based tracking.
-        </p>
-        <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 text-center">
-          <div class="flex-1 p-3 bg-gray-100 rounded-lg">
-            <div class="text-blue-600 text-2xl mb-1">①</div>
-            <p class="font-semibold">Gap Analysis</p>
-            <p class="text-xs text-gray-500">Identify Needs from Issues & KPIs</p>
-          </div>
-          <div class="text-2xl text-gray-400 hidden md:block">→</div>
-          <div class="flex-1 p-3 bg-gray-100 rounded-lg">
-            <div class="text-blue-600 text-2xl mb-1">②</div>
-            <p class="font-semibold">Strategic Plan</p>
-            <p class="text-xs text-gray-500">Develop Yearly Plan with HR/Quality</p>
-          </div>
-          <div class="text-2xl text-gray-400 hidden md:block">→</div>
-          <div class="flex-1 p-3 bg-gray-100 rounded-lg">
-            <div class="text-blue-600 text-2xl mb-1">③</div>
-            <p class="font-semibold">Material Creation</p>
-            <p class="text-xs text-gray-500">Rewrite SOPs & Digitize Content</p>
-          </div>
-          <div class="text-2xl text-gray-400 hidden md:block">→</div>
-          <div class="flex-1 p-3 bg-gray-100 rounded-lg">
-            <div class="text-blue-600 text-2xl mb-1">④</div>
-            <p class="font-semibold">Execution & Record</p>
-            <p class="text-xs text-gray-500">Deliver Training & Track via Quizzes</p>
-          </div>
-        </div>
       </div>
 
     </div>
